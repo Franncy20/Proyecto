@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparacion de textos</title>
+</head>
+<body>
+    <div>
+        <!--Pedir dos textos y decir cual tiene mas letras-->
+        <h1>Comparacion de textos</h1>
+        <form>           
+            <div>
+                <label for="t"><strong>Primer texto:</strong></label>
+                <input type="text" id="t" name="t" required>
+            </div>
+
+            <div>
+                <label for="t2"><strong>Segundo texto:</strong></label>
+                <input type="text" id="t2" name="t2" required>
+            </div>
+
+            <div id="resultado">
+                <strong>Resultado:</strong>
+            </div>
+            
+            <div>
+                <button type="button" class="btn-primary" onclick="textos()">
+                    <span>Mostrar</span>
+                </button>
+                <button type="reset" class="btn-secondary" onclick="limpiar()">
+                    <span>Limpiar</span>
+                </button>
+                <button type="button" class="btn-secondary" onclick="">
+                    <span>Regresar</span>
+                </button>
+            </div>            
+        </form>
+    </div>
+    <script src="./js/E4.js"></script>    
+</body>
+</html>
