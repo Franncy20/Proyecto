@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de letras</title>
+</head>
+<body>
+    <div>
+        <!--Pedir una palabra y mostrar cuantas letras tiene-->
+        <h1>Contador de letras</h1>
+        <form>           
+            <div>
+                <label for="p"><strong>Ingrese una palabra:</strong></label>
+                <input type="text" id="p" name="p" required>
+            </div>
+
+            <div id="resultado">
+                <strong>Resultado:</strong>
+            </div>
+            
+            <div>
+                <button type="button" class="btn-primary" onclick="palabra()">
+                    <span>Mostrar</span>
+                </button>
+                <button type="reset" class="btn-secondary" onclick="limpiar()">
+                    <span>Limpiar</span>
+                </button>
+                <button type="button" class="btn-secondary" onclick="">
+                    <span>Regresar</span>
+                </button>
+            </div>            
+        </form>
+    </div>
+    <script src="./js/E1.js"></script>    
+</body>
+</html>

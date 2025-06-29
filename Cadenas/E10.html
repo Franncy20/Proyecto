@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divisor de oraciones</title>
+</head>
+<body>
+    <div>
+        <!--Dividir una oracion en palabras y mostrarlas una por una-->
+        <h1>Divisor de oraciones</h1>
+        <form>           
+            <div>
+                <label for="o"><strong>Ingrese una oracion:</strong></label>
+                <input type="text" id="o" name="o" required>
+            </div>
+
+            <div id="resultado">
+                <strong>Resultado:</strong>
+            </div>
+            
+            <div>
+                <button type="button" class="btn-primary" onclick="oracion()">
+                    <span>Mostrar</span>
+                </button>
+                <button type="reset" class="btn-secondary" onclick="limpiar()">
+                    <span>Limpiar</span>
+                </button>
+                <button type="button" class="btn-secondary" onclick="">
+                    <span>Regresar</span>
+                </button>
+            </div>            
+        </form>
+    </div>
+    <script src="./js/E10.js"></script>    
+</body>
+</html>
