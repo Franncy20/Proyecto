@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar en arreglo</title>
+</head>
+<body>
+    <h2>Buscar un numero en el arreglo</h2>
+    <!--ingresar los numeros en el arreglo-->
+    <label for="entrada">Números:</label><br>
+    <input type="text" id="entrada" placeholder="Ingrese el numero"><br><br>
+    <!--ingresar los numeros que desea buscar-->
+    <label for="numeroBuscar">¿Que numero deseas buscar?</label><br>
+    <input type="text" id="numeroBuscar" placeholder="Ej : 8 "><br><br>
+    <!--boton para buscar-->
+    <button onclick="BuscarNumero()">Buscar</button><br><br>
+    <!--boton para limpiar-->
+    <button onclick="limpiar()">Limpiar</button><br><br>
+     <!--boton para regresar al menu-->
+    <button onclick="volverMenu()">Volver al Menu</button><br><br>
+      <!--aqui se mostrara el resultado del contador-->
+    <p id="resultado"></p>
+
+    <script src="buscarvalor.js"></script>
+</body>
+</html>
