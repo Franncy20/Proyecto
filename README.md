@@ -1,1 +1,1 @@
-Este proyecto presenta ejercicios de cadenas.
+Este proyecto presenta ejercicios de arreglos y cadenas.
